@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content="Maria Eduarda Ribeiro Viana"/>
+        <meta
+        name="description"
+        content="Site de informática"
+        />
+        <meta name="keywods" content="informática, produtos, tecnologia">
+        <title>MARIA INFORMÁTICA</title>
+        <link href="../css/style.css" rel="stylesheet">
+        <!-- Autora: Maria Eduarda Ribeiro Viana -->
+</head>
+<body>
+
+    <div class="topnav">
+        <a href="index.html">Página Inicial</a>
+        <a href="faleconosco.html">Fale Conosco</a>
+        <a href="cadastro.html">Cadastre-se</a>
+    </div>
+
+    <form method="POST" action="dados_cadastro.php">
+        <fieldset>
+            <legend>Cadastro de Cliente</legend>
+
+            <p>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" />
+
+            </p>
+
+            <p>
+                <label for="sobrenome">Sobrenome: </label>
+                <input type="text" name="sobrenome" id="sobrenome" />
+
+            </p>
+
+            <p>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" size="20" placeholder="000.000.000-00"/>
+            </p>
+            <p>
+                <label for="rg">RG</label>
+                <input type="text" name="rg" id="rg" size="20"/>
+            </p>
+
+
+            <p>
+                Gênero:
+                
+                <dl>
+                    <dd>
+                        <select name="genero" size="1">
+                            <option value="masc">Masculino</option>
+                            <option value="fem">Feminino</option>
+                            <option value="fluido">Gênero Fluído</option>
+                            <option value="naobi">Não Binário</option>
+                            <option value="arvore">Árvore</option>
+                            <option value="helicopter">Helicóptero de combate</option>
+                            <option value="naoinformar">Prefiro não informar</option>
+                        </select>
+                    </dd>
+                </dl>
+            </p>
+
+            <p>
+                <label for="endereco">Endereço: </label>
+                <input type="text" name="endereco" id="endereco" />
+
+                <label for="numero">Número: </label>
+                <input type="text" name="numero" id="numero" />
+
+            </p>
+
+            <p>
+                <label for="complemtento">Complemento: </label>
+                <input type="text" name="complemento" id="complemento" />
+
+            </p>
+
+            <p>
+                <label for="cidade">Cidade: </label>
+                <input type="text" name="cidade" id="cidade" />
+
+            </p>
+
+            <p>
+                Estado:
+                <dd>
+                    <select id="estado" name="estado">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                    </select>
+                </dd>
+            </p>
+
+            <p>
+                <label for="cep">CEP: </label>
+                <input type="text" name="cep" id="cep" />
+
+            </p>
+
+            <p>
+                <strong>Qual seu nível de satistafação sobre nossos serviços?</strong>
+                <dl>
+                    <dd>
+                        <input type="radio" name="avaliacao" value="muitobom" checked>Muito bom
+                        <input type="radio" name="avaliacao" value="bom" >Bom
+                        <input type="radio" name="avaliacao" value="regular" >Regular
+                        <input type="radio" name="avaliacao" value="umlixo" >Péssimo
+                    </dd>
+                </dl>
+            </p>
+
+            <p>
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" size="50"/>
+            </p>
+    
+            <p>
+                <dl>
+                    <dd>
+                        <input type="checkbox" name="novidades" value="nov">Quero receber novidades do site por email.
+                    </dd>
+                </dl>
+            </p>
+
+            <p>
+                <dl>
+                    <dd>
+                        <input type="submit" value="Cadastre-se">
+                    </dd>
+                </dl>
+            </p>
+
+        </fieldset>
+    </form>
+</body>
+</html>

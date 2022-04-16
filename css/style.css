@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,600;1,700&display=swap');
+
+
+body{
+    background-color:#D8BFD8;
+    background-attachment: fixed;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #9932CC;}
+  
+  #customers tr:hover {background-color: #9932CC;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4B0082;
+    color: white;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #4B0082;
+  }
+  
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: white;
+  }
+
+
+  .logo img{
+    margin-left: 400px;
+    margin-top: -140px;
+    margin-bottom: -140px;
+}
+
+p{
+    color: #4B0082;
+}
+
+#ptitulo {
+    font-size: 24px;
+    font-family: 'Source Serif Pro', serif;
+    color: #4B0082;
+}
+
+
+#imglogo{
+    width: 550px;
+  }
+
+ 
+
+  .textocentro {
+text-align: center;
+  }
+
+ img{
+    width: 400px;
+    border-radius: 5%;
+  }
+
+#fotopessoal{
+    width: 200px;
+    border-radius: 200px;
+    border-width: 70%;
+    border-top: 70%;
+    position: relative;
+  }
+
+.tabela{
+    width: 600px;
+    margin: auto;
+}
